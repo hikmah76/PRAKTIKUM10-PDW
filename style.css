@@ -1,0 +1,77 @@
+/* Pengaturan umum */
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+/* .container */
+.container {
+    width: 100%;
+    height: 50vh;
+    background-image: url("GRADASI.jpg"); /* Ganti 'nama_file_gambar.jpg' dengan nama file gambar Anda */
+    background-size: cover; /* Menyesuaikan ukuran gambar dengan container */
+    background-position: center; /* Posisi gambar di tengah container */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    text-align: center;
+    border: solid 1px #2880b9;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+/* .pendaftaran dan a */
+.pendaftaran,
+a {
+    display: inline-block;
+    background-color: #2880b9;
+    color: white;
+    text-decoration: none;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 40px;
+    margin: 5px;
+}
+
+.btn {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Styling khusus halaman */
+h2 {
+    color: #2880b9;
+    margin-top: 20px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+.back,
+a {
+    margin-top: 20px;
+    background-color: #2880b9;
+    color: white;
+    text-decoration: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+body {
+    background-image: url(s.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }

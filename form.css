@@ -1,0 +1,26 @@
+body {
+    margin: 0 auto;
+    font-family: sans-serif;
+    background-color: rgb(245, 168, 205);
+  }
+  
+  form {
+    width: 100%;
+  }
+  
+  legend {
+    text-align: center;
+  }
+  
+  .back,
+  a {
+    margin-top: 5px;
+    background-color: #228806;
+    color: white;
+    text-decoration: none;
+    width: 70px;
+    height: 40px;
+    border: transparent;
+    border-radius: 5px;
+  }
+  
